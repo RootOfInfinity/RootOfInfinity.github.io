@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+body {
+	background-color: #61573A;
+}
+
+#outDiv {
+	background-color: #DECB92;
+	width: 95%;
+	height: auto;
+	margin: auto;
+	padding-bottom: 5px;
+	padding-top: 2px;
+	border-radius: 10px;
+}
+
+/* title */
+header h1 {
+	padding-left: 30px;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+
+/* navigation */
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	background-color: #61573A;
+	padding: 5px;
+}
+
+nav ul li {
+	list-style-type: none;
+	background-color: #e3b68f;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+nav ul li a {
+	font-family: fantasy;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+	font-size: 13px;
+	color: black;
+	text-decoration: none;
+}
+
+#selected {
+	background-color: #ffcb3d;
+}
+
+/* for search and wrap */
+
+#WRAPITALL {
+	display: flex;
+	justify-content: space-between;
+}
+
+#searchWrapperWrapper {
+	display: flex;
+	width: 30%;
+	justify-content: center;
+}
+
+#searchWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+}
+
+#searchWrapper input {
+	height: 10px; 	
+}
+
+#searchWrapper img {
+	aspect-ratio: 1/1;
+	width: 20%;
+	height: 20%;
+	margin: 5px;
+}
+
+
+
+
+
+
+/* for books */
+
+#books {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	border-radius: 10px;
+	background-color: #663300;
+	padding: 10px;
+	width: 60%;
+	margin-left: 10px;
+}
+
+.bookBackground {
+	background-color: #996633;
+	display: flex;
+	justify-content: flex-start;
+	width: 93%;
+	margin-left: 20px;
+	margin-bottom: 50px;
+	padding: 10px;
+}
+
+.bookBackground img {
+	width: 20%;
+	aspect-ratio: 1/1;
+	
+}
+
+.bookInfoWrapWrap {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+}
+
+.bookInfoWrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/*border: 1px solid black;*/
+	width: auto;
+	height: 100%;
+}
+
+.bookTitle {
+	font-family: monospace;
+	font-size: 60px;
+	color: black;
+	text-align: center;
+}
+
+.author {
+	font-size: 30px;
+	font-style: italic;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+.bookBottom {
+	font-size: large;
+	font-family: monospace;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

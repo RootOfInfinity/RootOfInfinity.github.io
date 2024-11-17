@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Books</title>
+<link type = "text/css" rel = "stylesheet" href = "main.css"/>
+<script src = "Book.js"></script> <!-- Book class -->
+
+</head>
+<body onload = "update()">
+<div id = "outDiv">
+	<header>
+		<h1>Sullybooks.COM</h1>
+	</header>
+	<nav>
+		<ul>
+			<li>
+				<a href = "../home.html">Home</a>
+			</li>
+			<li> 
+				<a href = "../about_me.html">About Me</a>
+			</li>
+			<li id = "selected">
+				<a href = "./main.html">Books</a>
+			</li>
+			<li>
+				<a href = "../links.html">Links</a>
+			</li>
+		</ul>
+	</nav>
+	<br>
+	<div id = "main">
+		<!-- pictures are just placeholder -->
+		<div id = "WRAPITALL">
+			<div id="books">
+				<!-- A book -->
+				<!-- 
+				<div class = "bookBackground">
+					<img alt="Cool Image" src="../pics/lebronSunshine.gif">
+					<div class = "bookInfoWrapWrap">
+						<div class = "bookInfoWrap">
+							<a class = "bookTitle" href = "placeholder.html">Placeholder</a>
+							<p class = "author">by Sully</p>
+							<p class = "bookBottom">The Unknown series #1</p>
+						</div>
+					</div>	
+				</div>	
+				-->
+				
+			</div>
+			<div id = "searchWrapperWrapper">
+				<div id = "searchWrapper">
+					<input id = "search"
+						onkeydown = "if (event.keyCode == 13) document.getElementById('btnSearch').click()"
+					/>
+					<img alt="Search Icon" src="../pics/searchIcon.png"/>
+					<button id = "btnSearch" onclick = "search()">search</button>
+				</div>
+				
+			</div>
+		</div>
+		
+		
+		
+	</div>
+	<footer>
+		<a></a>
+	</footer>
+</div>
+</body>
+</html>
