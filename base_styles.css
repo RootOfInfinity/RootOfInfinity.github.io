@@ -1,0 +1,235 @@
+:root {
+  --dark0: #282828;
+  --dark1: #3c3836;
+  --dark2: #504945;
+  --dark3: #665c54;
+  --light0: #fbf1c7;
+  --light1: #ebdbb2;
+  --light2: #d5c4a1;
+  --light3: #bdae93;
+  --red: #fb4934;
+  --orange: #fe8019;
+  --yellow: #fabd2f;
+  --green: #b8bb26;
+  --cyan: #83c07c;
+  --blue: #83a598;
+  --purple: #d3869b;
+  --brown: #d65d0e;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+
+a {
+  text-decoration: none;
+}
+
+#big-title {
+  background: linear-gradient(to right, #83c07c, #83a598);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+
+}
+
+body {
+  background-color: #3c3836;
+  /* background: linear-gradient(to right, #fb4934, #b8bb26) */
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100% - 20px;
+  gap: 20px;
+  background-color: #282828;
+  border: 2px solid #d3869b;
+  padding: 2px;
+}
+
+nav a {
+  color: #d3869b;
+}
+
+nav div {
+  border: 2px solid #d3869b;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: #282828;
+}
+
+
+/*HOME PAGE*/
+
+#introductions {
+  margin-top: 50px;
+  text-align: center;
+  text-wrap-mode: wrap;
+  color: var(--blue);
+}
+
+#name {
+  background: linear-gradient(to right, var(--red), var(--orange));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 30pt;
+}
+
+#mourning {
+  color: var(--brown);
+}
+
+#my-interests {
+  display: flex;
+  justify-content: space-evenly;
+  /* overflow: auto; */
+  /* white-space: nowrap; */
+
+}
+
+#my-interests div {
+  border: 2px solid var(--dark2);
+  color: var(--brown);
+}
+
+#current-projects-header {
+  text-align: center;
+  color: var(--green);
+}
+
+#current-projects-div {
+  display: flex;
+  justify-content: space-around;
+  overflow: auto;
+  white-space: nowrap;
+  gap: 20px;
+}
+
+#current-projects-div a div {
+  width: 250px;
+  /* border: 1px solid var(--dark0); */
+  background: linear-gradient(to right, var(--dark0), var(--dark3));
+  text-wrap-mode: wrap;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+#current-projects-div a div h3 {
+  color: var(--blue);
+  text-align: center;
+}
+
+#current-projects-div a div p {
+  color: var(--cyan);
+}
+
+
+#contact-me-header {
+  text-align: center;
+  color: var(--green);
+}
+
+#contact-me-div {
+  text-align: center;
+  font-weight: bold;
+  color: var(--blue);
+  background-color: var(--dark0);
+  width: 100%;
+
+}
+
+#articles-header {
+  text-align: center;
+  color: var(--green);
+}
+
+
+/*END OF HOMEPAGE*/
+
+#art-title {
+  text-align: center;
+  color: var(--yellow);
+  font-weight: bold;
+}
+
+#author-date-div {
+  background-color: var(--dark0);
+}
+
+#author-date {
+  text-align: center;
+  font-style: italic;
+  color: var(--green);
+  font-weight: 100;
+}
+
+article {
+  color: var(--light0);
+  padding: 20px;
+  padding-top: 5px;
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  color: var(--red);
+}
+
+article img {
+  border: 5px solid var(--dark0);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+
+.sourceCode {
+  background-color: var(--dark0);
+  font-family: Fira Code;
+  font-size: 10pt;
+}
+
+.kw {
+  /*Keyword*/
+  color: var(--purple);
+}
+
+.op {
+  /*Operator*/
+  color: var(--green);
+}
+
+.dt {
+  /*I think types?*/
+  color: var(--brown);
+}
+
+.co {
+  /*Comment*/
+  color: var(--dark2);
+}
+
+.st {
+  /*String?*/
+  color: var(--blue);
+}
+
+.sc {
+  /*Escaped Chars?*/
+  color: var(--cyan);
+}
+
+.dv {
+  /*Literals?*/
+  color: var(--orange);
+}
